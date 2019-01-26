@@ -14,3 +14,32 @@ header {
 header h1 {
     margin:0;
 }
+nav {
+  background-color: #1d4e89;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+}
+
+nav ul {
+    list-style: none;
+    front-size: 3.5em;
+}
+
+nav li {
+    float: left;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em;
+  color:#0f0c09;
+  Text-decoration: none;
+  font-family: monospace;
+  border-right: 1px solid #0f0c09;
+}
+
+nav a:hover {
+  background-color: #0f0c09;
+
+}
