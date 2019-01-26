@@ -1,13 +1,13 @@
 body {
   background-color: rgba(0, 112, 112, 1);
   color: #171219;
-  margin: 5;
+  margin: 0;
 }
 
 header {
   background-color: #67aa95;
   Text-align: Left;
-  font-size: 2em;
+  font-size: 2.2em;
   font-family: 'Montserrat',cursive;
 }
 
@@ -23,7 +23,9 @@ nav {
 
 nav ul {
     list-style: none;
-    front-size: 3.5em;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
@@ -36,10 +38,30 @@ nav a{
   color:#0f0c09;
   Text-decoration: none;
   font-family: monospace;
-  border-right: 1px solid #0f0c09;
+  border-right:: 1px solid #0f0c09;
 }
 
 nav a:hover {
-  background-color: #0f0c09;
+  background-color: #008293;
 
+}
+
+main {
+  min height: 300px;
+}
+
+footer {
+  border-top: 1px solid #0f0c09;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+footer a{
+  color: #0f0c09;
+}
+
+footer a:hover {
+  color: #008293;
 }
