@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(0, 112, 112, 1);
+  color: #171219;
+  margin: 5;
+}
+
+header {
+  background-color: #67aa95;
+  Text-align: Left;
+  font-size: 2em;
+  font-family: 'Montserrat',cursive;
+}
+
+header h1 {
+    margin:0;
+}
